@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production builds
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and local runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Caches
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# TypeScript build metadata
+*.tsbuildinfo
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local tooling
+.vercel/
+.netlify/
+
